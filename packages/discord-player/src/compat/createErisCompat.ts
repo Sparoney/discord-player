@@ -5,7 +5,7 @@ import { ChannelType, GatewayDispatchEvents } from 'discord-api-types/v10';
 import { createCompatClient } from './common';
 import { Util } from '../utils/Util';
 
-import type { DiscordGatewayAdapterCreator } from 'discord-voip';
+import type { DiscordGatewayAdapterCreator } from '@discordjs/voice';
 import {
   Client,
   GatewayVoiceServerUpdateDispatchData,

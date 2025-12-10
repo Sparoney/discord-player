@@ -1,4 +1,4 @@
-import { AudioResource, StreamType } from 'discord-voip';
+import { AudioResource, StreamType } from '@discordjs/voice';
 import { Readable } from 'stream';
 import { QueryResolver, SearchQueryType } from '../utils/QueryResolver';
 import { Util, VALIDATE_QUEUE_CAP } from '../utils/Util';

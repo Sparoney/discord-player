@@ -12,7 +12,7 @@ export type MaybeNull<T> = T | null;
 export interface DependenciesReport {
   core: {
     'discord-player': string;
-    'discord-voip': string;
+    '@discordjs/voice': string;
   };
   libopus: {
     mediaplex: MaybeNull<string>;
@@ -127,8 +127,8 @@ export const DependencyReportGenerator = {
         'discord-player': DependencyReportGenerator.version(
           'discord-player',
         ) as string,
-        'discord-voip': DependencyReportGenerator.version(
-          'discord-voip',
+        '@discordjs/voice': DependencyReportGenerator.version(
+          '@discordjs/voice',
         ) as string,
       },
       libopus: {
