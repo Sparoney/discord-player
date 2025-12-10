@@ -22,7 +22,7 @@ import {
 import { VoiceUtils } from './stream/VoiceUtils';
 import { QueryResolver, QueryType, ResolvedQuery, SearchQueryType } from './utils/QueryResolver';
 import { Util } from './utils/Util';
-import { AudioResource, version as dVoiceVersion } from 'discord-voip';
+import { AudioResource, version as dVoiceVersion } from '@discordjs/voice';
 import { ExtractorExecutionContext } from './extractors/ExtractorExecutionContext';
 import { BaseExtractor } from './extractors/BaseExtractor';
 import { QueryCache, QueryCacheProvider } from './utils/QueryCache';
@@ -769,7 +769,7 @@ export class Player extends PlayerEventsEmitter<PlayerEvents> {
           return m.identifier;
         })
         .join('\n') || 'N/A',
-      '\n\ndiscord-voip',
+      '\n\n@discordjs/voice',
       DependencyReportGenerator.generateString(),
     ];
 

@@ -9,7 +9,7 @@ import { SerializedType, tryIntoThumbnailString } from '../utils/serde';
 import { InvalidArgTypeError } from '../errors';
 import { Util } from '../utils/Util';
 import { SearchQueryType } from '../utils/QueryResolver';
-import { AudioResource } from 'discord-voip';
+import { AudioResource } from '@discordjs/voice';
 
 export type TrackResolvable = Track | string | number;
 

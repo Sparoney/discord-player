@@ -112,7 +112,7 @@ export const DependencyReportGenerator = {
     return {
       core: {
         'discord-player': DependencyReportGenerator.version('discord-player') as string,
-        'discord-voip': DependencyReportGenerator.version('discord-voip') as string,
+        'discord-voip': DependencyReportGenerator.version('@discordjs/voice') as string,
       },
       libopus: {
         mediaplex: DependencyReportGenerator.version('mediaplex'),

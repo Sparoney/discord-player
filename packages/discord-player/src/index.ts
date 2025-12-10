@@ -41,6 +41,6 @@ export {
   type JoinConfig,
   type JoinVoiceChannelOptions,
   type CreateAudioPlayerOptions,
-} from 'discord-voip';
+} from '@discordjs/voice';
 
 export { version } from './version';
