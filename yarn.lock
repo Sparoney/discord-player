@@ -298,16 +298,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@discordjs/voice@npm:0.16.0":
-  version: 0.16.0
-  resolution: "@discordjs/voice@npm:0.16.0"
+"@discordjs/voice@npm:0.19.0":
+  version: 0.19.0
+  resolution: "@discordjs/voice@npm:0.19.0"
   dependencies:
-    "@types/ws": "npm:^8.5.4"
-    discord-api-types: "npm:^0.37.37"
+    "@types/ws": "npm:^8.18.1"
+    discord-api-types: "npm:^0.38.16"
     prism-media: "npm:^1.3.5"
-    tslib: "npm:^2.5.0"
-    ws: "npm:^8.13.0"
-  checksum: 10/f16a18b0ea01f0a795b9624fc6c5a096f2c32a8f35f2045bbecbc9083731e2e667dc985bd50967a6ef0a276bf82ec59969b360f40fe5f1a42b8da71047ed06b5
+    tslib: "npm:^2.8.1"
+    ws: "npm:^8.18.3"
+  checksum: 10/71dc4e30be5d0660d21835c46b6692d24c8e060b6ec368af16ecc8fb48afd53c7b0832ece51fbe893117e2e6cf589ba4064ca70a8f8bcf85192f6bc50f4c51fc
   languageName: node
   linkType: hard
 
@@ -328,12 +328,40 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@emnapi/core@npm:^1.7.1":
+  version: 1.7.1
+  resolution: "@emnapi/core@npm:1.7.1"
+  dependencies:
+    "@emnapi/wasi-threads": "npm:1.1.0"
+    tslib: "npm:^2.4.0"
+  checksum: 10/260841f6dd2a7823a964d9de6da3a5e6f565dac8d21a5bd8f6215b87c45c22a4dc371b9ad877961579ee3cca8a76e55e3dd033ae29cba1998999cda6d794bdab
+  languageName: node
+  linkType: hard
+
 "@emnapi/runtime@npm:^1.2.0":
   version: 1.3.1
   resolution: "@emnapi/runtime@npm:1.3.1"
   dependencies:
     tslib: "npm:^2.4.0"
   checksum: 10/619915ee44682356f77f60455025e667b0b04ad3c95ced36c03782aea9ebc066fa73e86c4a59d221177eba5e5533d40b3a6dbff4e58ee5d81db4270185c21e22
+  languageName: node
+  linkType: hard
+
+"@emnapi/runtime@npm:^1.7.1":
+  version: 1.7.1
+  resolution: "@emnapi/runtime@npm:1.7.1"
+  dependencies:
+    tslib: "npm:^2.4.0"
+  checksum: 10/6fc83f938e3c70e32e84c1fbe5cab6cb9340b8107cee4048384ad5b8f2998a06502b4bed342acaf6e44f473f2c14c4ab1e3fd5083bd7823fc63abfca9eff0175
+  languageName: node
+  linkType: hard
+
+"@emnapi/wasi-threads@npm:1.1.0":
+  version: 1.1.0
+  resolution: "@emnapi/wasi-threads@npm:1.1.0"
+  dependencies:
+    tslib: "npm:^2.4.0"
+  checksum: 10/0d557e75262d2f4c95cb2a456ba0785ef61f919ce488c1d76e5e3acfd26e00c753ef928cd80068363e0c166ba8cc0141305daf0f81aad5afcd421f38f11e0f4e
   languageName: node
   linkType: hard
 
@@ -1328,6 +1356,17 @@ __metadata:
     unist-util-visit: "npm:^5.0.0"
     vfile: "npm:^6.0.0"
   checksum: 10/4bd4e1160e2b2bc9ea2b5b93246ce0e34a11ac5fd420ec025e82fb1120a72b80025d9cb205cce6394bb5f0013f209b9ea453cbda4c0ca4f97a2169df60084742
+  languageName: node
+  linkType: hard
+
+"@napi-rs/wasm-runtime@npm:^1.0.7":
+  version: 1.1.0
+  resolution: "@napi-rs/wasm-runtime@npm:1.1.0"
+  dependencies:
+    "@emnapi/core": "npm:^1.7.1"
+    "@emnapi/runtime": "npm:^1.7.1"
+    "@tybys/wasm-util": "npm:^0.10.1"
+  checksum: 10/87c7ab4685527aa4820320020e2af5879b99d88e94b42cdc3690646722536f14656667392975a9576bf411a3804a464949fadbc343a646a2c2a8b2f10d921f6c
   languageName: node
   linkType: hard
 
@@ -2456,6 +2495,157 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@snazzah/davey-android-arm-eabi@npm:0.1.8":
+  version: 0.1.8
+  resolution: "@snazzah/davey-android-arm-eabi@npm:0.1.8"
+  conditions: os=android & cpu=arm
+  languageName: node
+  linkType: hard
+
+"@snazzah/davey-android-arm64@npm:0.1.8":
+  version: 0.1.8
+  resolution: "@snazzah/davey-android-arm64@npm:0.1.8"
+  conditions: os=android & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@snazzah/davey-darwin-arm64@npm:0.1.8":
+  version: 0.1.8
+  resolution: "@snazzah/davey-darwin-arm64@npm:0.1.8"
+  conditions: os=darwin & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@snazzah/davey-darwin-x64@npm:0.1.8":
+  version: 0.1.8
+  resolution: "@snazzah/davey-darwin-x64@npm:0.1.8"
+  conditions: os=darwin & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@snazzah/davey-freebsd-x64@npm:0.1.8":
+  version: 0.1.8
+  resolution: "@snazzah/davey-freebsd-x64@npm:0.1.8"
+  conditions: os=freebsd & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@snazzah/davey-linux-arm-gnueabihf@npm:0.1.8":
+  version: 0.1.8
+  resolution: "@snazzah/davey-linux-arm-gnueabihf@npm:0.1.8"
+  conditions: os=linux & cpu=arm
+  languageName: node
+  linkType: hard
+
+"@snazzah/davey-linux-arm64-gnu@npm:0.1.8":
+  version: 0.1.8
+  resolution: "@snazzah/davey-linux-arm64-gnu@npm:0.1.8"
+  conditions: os=linux & cpu=arm64 & libc=glibc
+  languageName: node
+  linkType: hard
+
+"@snazzah/davey-linux-arm64-musl@npm:0.1.8":
+  version: 0.1.8
+  resolution: "@snazzah/davey-linux-arm64-musl@npm:0.1.8"
+  conditions: os=linux & cpu=arm64 & libc=musl
+  languageName: node
+  linkType: hard
+
+"@snazzah/davey-linux-x64-gnu@npm:0.1.8":
+  version: 0.1.8
+  resolution: "@snazzah/davey-linux-x64-gnu@npm:0.1.8"
+  conditions: os=linux & cpu=x64 & libc=glibc
+  languageName: node
+  linkType: hard
+
+"@snazzah/davey-linux-x64-musl@npm:0.1.8":
+  version: 0.1.8
+  resolution: "@snazzah/davey-linux-x64-musl@npm:0.1.8"
+  conditions: os=linux & cpu=x64 & libc=musl
+  languageName: node
+  linkType: hard
+
+"@snazzah/davey-wasm32-wasi@npm:0.1.8":
+  version: 0.1.8
+  resolution: "@snazzah/davey-wasm32-wasi@npm:0.1.8"
+  dependencies:
+    "@napi-rs/wasm-runtime": "npm:^1.0.7"
+  conditions: cpu=wasm32
+  languageName: node
+  linkType: hard
+
+"@snazzah/davey-win32-arm64-msvc@npm:0.1.8":
+  version: 0.1.8
+  resolution: "@snazzah/davey-win32-arm64-msvc@npm:0.1.8"
+  conditions: os=win32 & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@snazzah/davey-win32-ia32-msvc@npm:0.1.8":
+  version: 0.1.8
+  resolution: "@snazzah/davey-win32-ia32-msvc@npm:0.1.8"
+  conditions: os=win32 & cpu=ia32
+  languageName: node
+  linkType: hard
+
+"@snazzah/davey-win32-x64-msvc@npm:0.1.8":
+  version: 0.1.8
+  resolution: "@snazzah/davey-win32-x64-msvc@npm:0.1.8"
+  conditions: os=win32 & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@snazzah/davey@npm:0.1.8":
+  version: 0.1.8
+  resolution: "@snazzah/davey@npm:0.1.8"
+  dependencies:
+    "@snazzah/davey-android-arm-eabi": "npm:0.1.8"
+    "@snazzah/davey-android-arm64": "npm:0.1.8"
+    "@snazzah/davey-darwin-arm64": "npm:0.1.8"
+    "@snazzah/davey-darwin-x64": "npm:0.1.8"
+    "@snazzah/davey-freebsd-x64": "npm:0.1.8"
+    "@snazzah/davey-linux-arm-gnueabihf": "npm:0.1.8"
+    "@snazzah/davey-linux-arm64-gnu": "npm:0.1.8"
+    "@snazzah/davey-linux-arm64-musl": "npm:0.1.8"
+    "@snazzah/davey-linux-x64-gnu": "npm:0.1.8"
+    "@snazzah/davey-linux-x64-musl": "npm:0.1.8"
+    "@snazzah/davey-wasm32-wasi": "npm:0.1.8"
+    "@snazzah/davey-win32-arm64-msvc": "npm:0.1.8"
+    "@snazzah/davey-win32-ia32-msvc": "npm:0.1.8"
+    "@snazzah/davey-win32-x64-msvc": "npm:0.1.8"
+  dependenciesMeta:
+    "@snazzah/davey-android-arm-eabi":
+      optional: true
+    "@snazzah/davey-android-arm64":
+      optional: true
+    "@snazzah/davey-darwin-arm64":
+      optional: true
+    "@snazzah/davey-darwin-x64":
+      optional: true
+    "@snazzah/davey-freebsd-x64":
+      optional: true
+    "@snazzah/davey-linux-arm-gnueabihf":
+      optional: true
+    "@snazzah/davey-linux-arm64-gnu":
+      optional: true
+    "@snazzah/davey-linux-arm64-musl":
+      optional: true
+    "@snazzah/davey-linux-x64-gnu":
+      optional: true
+    "@snazzah/davey-linux-x64-musl":
+      optional: true
+    "@snazzah/davey-wasm32-wasi":
+      optional: true
+    "@snazzah/davey-win32-arm64-msvc":
+      optional: true
+    "@snazzah/davey-win32-ia32-msvc":
+      optional: true
+    "@snazzah/davey-win32-x64-msvc":
+      optional: true
+  checksum: 10/32e8696c2a35197b2eb8d1d529d5775a995caf2cbb4e1d51c8ca5c2a0b8921b610b3e7f6a41f563617318f18984bb76705c9ef678489ca492654ecfa09b422bc
+  languageName: node
+  linkType: hard
+
 "@swc/counter@npm:0.1.3":
   version: 0.1.3
   resolution: "@swc/counter@npm:0.1.3"
@@ -2494,6 +2684,15 @@ __metadata:
     path-browserify: "npm:^1.0.1"
     tinyglobby: "npm:^0.2.9"
   checksum: 10/9b192dfebb7179e96267ea1720f6afe77964f9f89ecaca41d372da206cdfd838a77c1080026c73115a5d3a88752b1504ec7380907e26b6424e8fb7f7625c7461
+  languageName: node
+  linkType: hard
+
+"@tybys/wasm-util@npm:^0.10.1":
+  version: 0.10.1
+  resolution: "@tybys/wasm-util@npm:0.10.1"
+  dependencies:
+    tslib: "npm:^2.4.0"
+  checksum: 10/7fe0d239397aebb002ac4855d30c197c06a05ea8df8511350a3a5b1abeefe26167c60eda8a5508337571161e4c4b53d7c1342296123f9607af8705369de9fa7f
   languageName: node
   linkType: hard
 
@@ -2725,6 +2924,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/ws@npm:^8.18.1":
+  version: 8.18.1
+  resolution: "@types/ws@npm:8.18.1"
+  dependencies:
+    "@types/node": "npm:*"
+  checksum: 10/1ce05e3174dcacf28dae0e9b854ef1c9a12da44c7ed73617ab6897c5cbe4fccbb155a20be5508ae9a7dde2f83bd80f5cf3baa386b934fc4b40889ec963e94f3a
+  languageName: node
+  linkType: hard
+
 "@types/ws@npm:^8.5.10":
   version: 8.5.11
   resolution: "@types/ws@npm:8.5.11"
@@ -2740,15 +2948,6 @@ __metadata:
   dependencies:
     "@types/node": "npm:*"
   checksum: 10/08aac698ce6480b532d8311f790a8744ae489ccdd98f374cfe4b8245855439825c64b031abcbba4f30fb280da6cc2b02a4e261e16341d058ffaeecaa24ba2bd3
-  languageName: node
-  linkType: hard
-
-"@types/ws@npm:^8.5.4":
-  version: 8.18.1
-  resolution: "@types/ws@npm:8.18.1"
-  dependencies:
-    "@types/node": "npm:*"
-  checksum: 10/1ce05e3174dcacf28dae0e9b854ef1c9a12da44c7ed73617ab6897c5cbe4fccbb155a20be5508ae9a7dde2f83bd80f5cf3baa386b934fc4b40889ec963e94f3a
   languageName: node
   linkType: hard
 
@@ -4321,10 +4520,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"discord-api-types@npm:^0.37.37":
-  version: 0.37.120
-  resolution: "discord-api-types@npm:0.37.120"
-  checksum: 10/149f8365051dc6c2a4ccf4bc990e200faf190c1cbda612b8f87885e7f6d10be945f523a9651779a3d3d785ce4fd3897bf3b3931d1c9936be251ac4b5c5982674
+"discord-api-types@npm:^0.38.16":
+  version: 0.38.36
+  resolution: "discord-api-types@npm:0.38.36"
+  checksum: 10/33d11b8a14761489e9e5ccb23f2c4c5668ef71b05a5c065b47098ff51836197582f4baeb5a5e6ddb02f7d487904f379a2131895d0be44e649e1832a7d83816d5
   languageName: node
   linkType: hard
 
@@ -4336,7 +4535,8 @@ __metadata:
     "@discord-player/ffmpeg": "workspace:^"
     "@discord-player/tsconfig": "workspace:^"
     "@discord-player/utils": "workspace:^"
-    "@discordjs/voice": "npm:0.16.0"
+    "@discordjs/voice": "npm:0.19.0"
+    "@snazzah/davey": "npm:0.1.8"
     "@types/node": "npm:^20.14.11"
     "@types/ws": "npm:^8.5.3"
     "@web-scrobbler/metadata-filter": "npm:^3.1.0"
@@ -11417,7 +11617,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:2":
+"tslib@npm:2, tslib@npm:^2.8.1":
   version: 2.8.1
   resolution: "tslib@npm:2.8.1"
   checksum: 10/3e2e043d5c2316461cb54e5c7fe02c30ef6dccb3384717ca22ae5c6b5bc95232a6241df19c622d9c73b809bea33b187f6dbc73030963e29950c2141bc32a79f7
@@ -12413,21 +12613,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ws@npm:^8.13.0":
-  version: 8.18.3
-  resolution: "ws@npm:8.18.3"
-  peerDependencies:
-    bufferutil: ^4.0.1
-    utf-8-validate: ">=5.0.2"
-  peerDependenciesMeta:
-    bufferutil:
-      optional: true
-    utf-8-validate:
-      optional: true
-  checksum: 10/725964438d752f0ab0de582cd48d6eeada58d1511c3f613485b5598a83680bedac6187c765b0fe082e2d8cc4341fc57707c813ae780feee82d0c5efe6a4c61b6
-  languageName: node
-  linkType: hard
-
 "ws@npm:^8.16.0, ws@npm:^8.2.3":
   version: 8.18.0
   resolution: "ws@npm:8.18.0"
@@ -12440,6 +12625,21 @@ __metadata:
     utf-8-validate:
       optional: true
   checksum: 10/70dfe53f23ff4368d46e4c0b1d4ca734db2c4149c6f68bc62cb16fc21f753c47b35fcc6e582f3bdfba0eaeb1c488cddab3c2255755a5c3eecb251431e42b3ff6
+  languageName: node
+  linkType: hard
+
+"ws@npm:^8.18.3":
+  version: 8.18.3
+  resolution: "ws@npm:8.18.3"
+  peerDependencies:
+    bufferutil: ^4.0.1
+    utf-8-validate: ">=5.0.2"
+  peerDependenciesMeta:
+    bufferutil:
+      optional: true
+    utf-8-validate:
+      optional: true
+  checksum: 10/725964438d752f0ab0de582cd48d6eeada58d1511c3f613485b5598a83680bedac6187c765b0fe082e2d8cc4341fc57707c813ae780feee82d0c5efe6a4c61b6
   languageName: node
   linkType: hard
 
