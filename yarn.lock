@@ -543,7 +543,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@discord-player/equalizer@workspace:^, @discord-player/equalizer@workspace:packages/equalizer":
+"@discord-player/equalizer@npm:7.2.0, @discord-player/equalizer@workspace:packages/equalizer":
   version: 0.0.0-use.local
   resolution: "@discord-player/equalizer@workspace:packages/equalizer"
   dependencies:
@@ -574,7 +574,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@discord-player/ffmpeg@workspace:^, @discord-player/ffmpeg@workspace:packages/ffmpeg":
+"@discord-player/ffmpeg@npm:7.2.0, @discord-player/ffmpeg@workspace:^, @discord-player/ffmpeg@workspace:packages/ffmpeg":
   version: 0.0.0-use.local
   resolution: "@discord-player/ffmpeg@workspace:packages/ffmpeg"
   dependencies:
@@ -606,7 +606,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@discord-player/utils@workspace:^, @discord-player/utils@workspace:packages/utils":
+"@discord-player/utils@npm:7.2.0, @discord-player/utils@workspace:^, @discord-player/utils@workspace:packages/utils":
   version: 0.0.0-use.local
   resolution: "@discord-player/utils@workspace:packages/utils"
   dependencies:
@@ -5353,10 +5353,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "discord-player@workspace:packages/discord-player"
   dependencies:
-    "@discord-player/equalizer": "workspace:^"
-    "@discord-player/ffmpeg": "workspace:^"
+    "@discord-player/equalizer": "npm:7.2.0"
+    "@discord-player/ffmpeg": "npm:7.2.0"
     "@discord-player/tsconfig": "workspace:^"
-    "@discord-player/utils": "workspace:^"
+    "@discord-player/utils": "npm:7.2.0"
     "@discordjs/voice": "npm:^0.19.2"
     "@types/node": "npm:^22.10.7"
     "@types/ws": "npm:^8.5.3"
@@ -5372,8 +5372,8 @@ __metadata:
     typescript: "npm:^5.2.2"
     vitest: "npm:^0.34.6"
   peerDependencies:
-    "@discord-player/extractor": "workspace:^"
-    mediaplex: ^1
+    "@discord-player/extractor": 7.2.0
+    mediaplex: "*"
   languageName: unknown
   linkType: soft
 
