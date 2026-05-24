@@ -1,4 +1,4 @@
-import { StreamType } from 'discord-voip';
+import { StreamType } from '@discordjs/voice';
 import type { Track } from './fabric';
 import type { Player } from './Player';
 import type { GuildQueue } from './queue';

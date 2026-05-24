@@ -24,7 +24,7 @@ import {
   StreamType,
   VoiceConnection,
   VoiceConnectionStatus,
-} from 'discord-voip';
+} from '@discordjs/voice';
 import { Util, VALIDATE_QUEUE_CAP } from '../utils/Util';
 import { Playlist } from '../fabric/Playlist';
 import { GuildQueueHistory } from './GuildQueueHistory';

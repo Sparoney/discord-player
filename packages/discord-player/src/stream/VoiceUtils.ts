@@ -6,7 +6,7 @@ import {
   getVoiceConnection,
   VoiceConnectionStatus,
   AudioPlayer,
-} from 'discord-voip';
+} from '@discordjs/voice';
 import { StreamDispatcher } from './StreamDispatcher';
 import { Collection } from '@discord-player/utils';
 import { GuildQueue } from '../queue';
